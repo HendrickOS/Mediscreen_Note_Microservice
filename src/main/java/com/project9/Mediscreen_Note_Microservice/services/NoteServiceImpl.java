@@ -11,7 +11,7 @@ import com.project9.Mediscreen_Note_Microservice.domain.Note;
 import com.project9.Mediscreen_Note_Microservice.repositories.NoteRepository;
 
 @Component
-public class NoteSerivceImpl implements NoteService {
+public class NoteServiceImpl implements NoteService {
 
 	@Autowired
 	NoteRepository noteRepository;
