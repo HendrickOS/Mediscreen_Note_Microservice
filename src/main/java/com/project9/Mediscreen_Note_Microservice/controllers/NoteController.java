@@ -21,7 +21,7 @@ public class NoteController {
 	NoteService noteService;
 
 	@RequestMapping("/notes/list")
-	public String home(Model model, String patientsName) {
+	public String notesList(Model model, String patientsName) {
 		model.addAttribute("note", noteService.findByPatientsName(patientsName));
 		return "note/list";
 	}
