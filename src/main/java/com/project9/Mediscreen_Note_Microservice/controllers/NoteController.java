@@ -1,43 +1,44 @@
 package com.project9.Mediscreen_Note_Microservice.controllers;
 
+import java.util.List;
+
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.project9.Mediscreen_Note_Microservice.domain.Note;
 import com.project9.Mediscreen_Note_Microservice.services.NoteService;
 
-@Controller
+@RestController
 public class NoteController {
 
 	@Autowired
 	NoteService noteService;
 
 	@RequestMapping("/notes/list")
-	public String notesList(Model model, String patientsName) {
-		model.addAttribute("note", noteService.findByPatientsName(patientsName));
-		return "note/list";
+	public List<Note> notesList(Model model, String patientsName) {
+		return noteService.findByPatientsName(patientsName);
 	}
 
-	@GetMapping("/notes/add")
-	public String addNote(Note note) {
-		return "note/add";
-	}
+//	@GetMapping("/notes/add")
+//	public String addNote(Note note) {
+//		return "note/add";
+//	}
 
 	@PostMapping("/notes/validate")
-	public String validate(@Valid Note note, BindingResult result, Model model) {
+	public Note validate(@Valid Note note, BindingResult result, Model model) {
 		if (!result.hasErrors()) {
-			noteService.save(note);
-			return "redirect:/notes/list";
+			return noteService.save(note);
+//			return "redirect:/notes/list";
 		}
-		return "note/add";
+		return note;
 	}
 
 	@GetMapping("/notes/update/{id}")
