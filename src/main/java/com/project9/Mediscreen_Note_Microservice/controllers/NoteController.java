@@ -33,12 +33,12 @@ public class NoteController {
 //	}
 
 	@PostMapping("/notes/validate")
-	public Note validate(@Valid Note note, BindingResult result, Model model) {
-		if (!result.hasErrors()) {
-			return noteService.save(note);
+	public Note validate(@Valid Note note) {
+//		if (!result.hasErrors()) {
+		return noteService.save(note);
 //			return "redirect:/notes/list";
-		}
-		return note;
+//		}
+//		return note;
 	}
 
 	@GetMapping("/notes/update/{id}")
