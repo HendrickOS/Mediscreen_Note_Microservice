@@ -22,8 +22,8 @@ public class NoteController {
 	@Autowired
 	NoteService noteService;
 
-	@RequestMapping("/notes/list")
-	public List<Note> notesList(Model model, String patientsName) {
+	@RequestMapping("/notes")
+	public List<Note> notesList(String patientsName) {
 		return noteService.findByPatientsName(patientsName);
 	}
 
