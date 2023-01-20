@@ -13,17 +13,8 @@ public class Note {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private ObjectId id;
-//	private Integer id;
 	private String patientsName;
 	private String commentary;
-
-//	public Integer getId() {
-//		return id;
-//	}
-//
-//	public void setId(Integer id) {
-//		this.id = id;
-//	}
 
 	public ObjectId getId() {
 		return id;
