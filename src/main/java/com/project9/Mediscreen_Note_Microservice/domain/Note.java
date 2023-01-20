@@ -4,6 +4,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "notes")
@@ -11,15 +12,24 @@ public class Note {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer id;
+	private ObjectId id;
+//	private Integer id;
 	private String patientsName;
 	private String commentary;
 
-	public Integer getId() {
+//	public Integer getId() {
+//		return id;
+//	}
+//
+//	public void setId(Integer id) {
+//		this.id = id;
+//	}
+
+	public ObjectId getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(ObjectId id) {
 		this.id = id;
 	}
 

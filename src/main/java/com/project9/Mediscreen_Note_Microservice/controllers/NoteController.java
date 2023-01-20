@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.validation.Valid;
 
+import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -27,18 +28,9 @@ public class NoteController {
 		return noteService.findByPatientsName(patientsName);
 	}
 
-//	@GetMapping("/notes/add")
-//	public String addNote(Note note) {
-//		return "note/add";
-//	}
-
 	@PostMapping("/notes/validate")
 	public Note validate(@Valid Note note) {
-//		if (!result.hasErrors()) {
 		return noteService.save(note);
-//			return "redirect:/notes/list";
-//		}
-//		return note;
 	}
 
 	@GetMapping("/notes/update/{id}")
@@ -49,7 +41,7 @@ public class NoteController {
 	}
 
 	@PostMapping("/notes/update/{id}")
-	public String updateNote(@PathVariable("id") Integer id, @Valid Note note, BindingResult result, Model model) {
+	public String updateNote(@PathVariable("id") ObjectId id, @Valid Note note, BindingResult result, Model model) {
 		if (result.hasErrors()) {
 			return "note/update";
 		}
