@@ -1,9 +1,5 @@
-FROM adoptopenjdk/openjdk15:ubi
-ENV APP_HOME=/usr/app/
-ADD ./microservice-notes-0.0.3-SNAPSHOT.jar app.jar
-WORKDIR $APP_HOME
-COPY build/libs/*.jar app.jar
-EXPOSE 8081
-ENTRYPOINT ["java", "-Dspring.profiles.active=compose", "-jar","/app.jar"]
+FROM openjdk:11-jdk-bullseye
 VOLUME /main-app
-CMD ["java", "-jar", "app.jar"]
+ADD ./microservice-note-0.0.3-SNAPSHOT.jar app.jar
+EXPOSE 8082
+ENTRYPOINT ["java", "-Dspring.profiles.active=compose", "-jar","/app.jar"]

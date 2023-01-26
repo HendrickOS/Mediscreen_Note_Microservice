@@ -1,145 +1,217 @@
 [{
-  "_id": "1",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a8b"
+  },
   "commentary": "Le patient déclare qu'il « se sent très bien »",
   "patientsName": "Ferguson"
 },{
-  "_id": "2",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a8c"
+  },
   "commentary": "Le patient déclare qu'il se sent fatigué pendant la journée",
   "patientsName": "Ferguson"
 },{
-  "_id": "10",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a8d"
+  },
   "commentary": "Le patient déclare qu'il ne se sent pas si fatigué que ça",
   "patientsName": "Ferguson"
 },{
-  "_id": "11",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a8e"
+  },
   "commentary": "Le patient déclare qu'il ressent beaucoup de stress au travail",
   "patientsName": "Rees"
 },{
-  "_id": "12",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a8f"
+  },
   "commentary": "Le patient déclare avoir fais une réaction aux médicaments au cours des 3 derniers mois",
   "patientsName": "Rees"
 },{
-  "_id": "13",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a90"
+  },
   "commentary": "Tests de laboratoire indiquant une microalbumine élevée",
   "patientsName": "Rees"
 },{
-  "_id": "14",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a91"
+  },
   "commentary": "Le patient déclare que tout semble aller bien",
   "patientsName": "Rees"
 },{
-  "_id": "15",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a92"
+  },
   "commentary": "Le patient déclare qu'il fume depuis peu",
   "patientsName": "Arnold"
 },{
-  "_id": "16",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a93"
+  },
   "commentary": "Tests de laboratoire indiquant une microalbumine élevée",
   "patientsName": "Arnold"
 },{
-  "_id": "17",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a94"
+  },
   "commentary": "Le patient déclare qu'il est fumeur et qu'il a cessé de fumer l'année dernière",
   "patientsName": "Arnold"
 },{
-  "_id": "18",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a95"
+  },
   "commentary": "Tests de laboratoire indiquant un taux de cholestérol LDL élévé",
   "patientsName": "Arnold"
 },{
-  "_id": "19",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a96"
+  },
   "commentary": "Le patient déclare qu'il lui est devenu difficile de monter les escaliers",
   "patientsName": "Sharp"
 },{
-  "_id": "20",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a97"
+  },
   "commentary": "Le patient déclare qu'il a mal au dos lorsqu'il reste assis pendant longtemps",
   "patientsName": "Sharp"
 },{
-  "_id": "21",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a98"
+  },
   "commentary": "Le patient déclare avoir commencé à fumer depuis peu",
   "patientsName": "Sharp"
 },{
-  "_id": "22",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a99"
+  },
   "commentary": "Le patient déclare avoir des douleurs au cou occasionnellement",
   "patientsName": "Ince"
 },{
-  "_id": "23",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a9a"
+  },
   "commentary": "Le patient déclare avoir eu plusieurs épisodes de vertige depuis la dernière visite",
   "patientsName": "Ince"
 },{
-  "_id": "24",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a9b"
+  },
   "commentary": "Le patient déclare qu'il souffre encore de douleurs cervicales occassionnelles",
   "patientsName": "Ince"
 },{
-  "_id": "25",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a9c"
+  },
   "commentary": "Le patient déclare avoir eu plusieurs épisodes de vertiges depuis la dernière visite",
   "patientsName": "Ince"
 },{
-  "_id": "26",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a9d"
+  },
   "commentary": "Le patient déclare qu'il se sent bien",
   "patientsName": "Ross"
 },{
-  "_id": "27",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a9e"
+  },
   "commentary": "Le patient déclare qu'il se sent bien",
   "patientsName": "Ross"
 },{
-  "_id": "28",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27a9f"
+  },
   "commentary": "Le patient déclare qu'il se réveille souvent avec une raideur articulaire",
   "patientsName": "Wilson"
 },{
-  "_id": "29",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27aa0"
+  },
   "commentary": "Les tests de laboratoire indiquent que les anticorps sont élevés",
   "patientsName": "Buckland"
 },{
-  "_id": "30",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27aa1"
+  },
   "commentary": "Le patient déclare avoir de la difficulté à se concentrer sur ses devoirs scolaires",
   "patientsName": "Clark"
 },{
-  "_id": "31",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27aa2"
+  },
   "commentary": "Le patient déclare qu'il s'impatiente facilement en cas d'attente prolongée",
   "patientsName": "Clark"
 },{
-  "_id": "32",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27aa3"
+  },
   "commentary": "Le patient déclare qu'il est facilement irrité par des broutilles",
   "patientsName": "Clark"
 },{
-  "_id": "33",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27aa4"
+  },
   "commentary": "Le patient déclare qu'il n'a aucun problème",
   "patientsName": "Bailey"
 },{
-  "_id": "34",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27aa5"
+  },
   "commentary": "Le patient déclare qu'il n'a aucun problème",
   "patientsName": "Bailey"
 },{
-  "_id": "35",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27aa6"
+  },
   "commentary": "Le patient déclare qu'il n'a aucun problème",
   "patientsName": "Bailey"
 },{
-  "_id": "36",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27aa7"
+  },
   "commentary": "Le patient déclare qu'il n'a aucun problème",
   "patientsName": "Bailey"
 },{
-  "_id": "3",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27aa8"
+  },
   "commentary": "Le patient déclare qu'il se sent fatigué pendant la journée",
   "patientsName": "Abe"
 },{
-  "_id": "4",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27aa9"
+  },
   "commentary": "Le patient déclare qu'il se sent fatigué pendant la journée",
   "patientsName": "Kermit"
 },{
-  "_id": "5",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27aaa"
+  },
   "commentary": "Le patient déclare qu'il se sent fatigué pendant la journée",
   "patientsName": "Marion"
 },{
-  "_id": "6",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27aab"
+  },
   "commentary": "Le patient déclare qu'il se sent fatigué pendant la journée",
   "patientsName": "Aguirre"
 },{
-  "_id": "7",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27aac"
+  },
   "commentary": "Le patient déclare qu'il se sent fatigué pendant la journée",
   "patientsName": "Duncan"
 },{
-  "_id": "8",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27aad"
+  },
   "commentary": "Le patient déclare qu'il se sent fatigué pendant la journée",
   "patientsName": "Wilma"
 },{
-  "_id": "9",
+  "_id": {
+    "$oid": "63ca9e831a0dfefa98e27aae"
+  },
   "commentary": "Le patient déclare qu'il se sent fatigué pendant la journée",
   "patientsName": "Francois"
 }]
