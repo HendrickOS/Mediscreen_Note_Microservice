@@ -24,8 +24,8 @@ public class NoteController {
 	NoteService noteService;
 
 	@RequestMapping("/notes")
-	public List<Note> notesList(String patientsName) {
-		return noteService.findByPatientsName(patientsName);
+	public List<Note> notesList(String lastnameOfPatient) {
+		return noteService.findByLastnameOfPatient(lastnameOfPatient);
 	}
 
 	@PostMapping("/notes/validate")

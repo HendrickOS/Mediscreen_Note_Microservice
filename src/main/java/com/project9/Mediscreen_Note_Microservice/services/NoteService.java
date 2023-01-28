@@ -13,12 +13,12 @@ public interface NoteService {
 
 	List<Note> findAll();
 
-	List<Note> findByPatientsName(String patientsName);
+	List<Note> findByLastnameOfPatient(String lastnameOfPatient);
 
 	Note findById(Integer id);
 
 	void delete(Note note);
 
-	List<String> commentariesOfEachNoteOfPatient(String patientsName);
+	List<String> commentariesOfEachNoteOfPatient(String lastnameOfPatient);
 
 }

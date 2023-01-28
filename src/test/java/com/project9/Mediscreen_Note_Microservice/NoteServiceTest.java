@@ -26,16 +26,16 @@ public class NoteServiceTest {
 	private NoteRepository noteRepositoryMocked;
 
 	@Test
-	public void findNoteByPatientsName() {
-		String givenPatientName = "fullname";
+	public void findNoteByLastnameOfPatient() {
+		String givenLastnameOfPatient = "lastname";
 		List<Note> expected = new ArrayList<Note>();
 
-		when(noteRepositoryMocked.findByPatientsName(givenPatientName)).thenReturn(expected);
+		when(noteRepositoryMocked.findByLastnameOfPatient(givenLastnameOfPatient)).thenReturn(expected);
 
-		List<Note> result = noteServiceUnderTest.findByPatientsName(givenPatientName);
+		List<Note> result = noteServiceUnderTest.findByLastnameOfPatient(givenLastnameOfPatient);
 
 		assertThat(result).isEqualTo(expected);
-		verify(noteRepositoryMocked, times(1)).findByPatientsName(givenPatientName);
+		verify(noteRepositoryMocked, times(1)).findByLastnameOfPatient(givenLastnameOfPatient);
 	}
 
 }

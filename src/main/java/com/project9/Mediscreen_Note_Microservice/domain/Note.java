@@ -13,7 +13,7 @@ public class Note {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private ObjectId id;
-	private String patientsName;
+	private String lastnameOfPatient;
 	private String commentary;
 
 	public ObjectId getId() {
@@ -24,12 +24,12 @@ public class Note {
 		this.id = id;
 	}
 
-	public String getPatientsName() {
-		return patientsName;
+	public String getLastnameOfPatient() {
+		return lastnameOfPatient;
 	}
 
-	public void setPatientsName(String patientsName) {
-		this.patientsName = patientsName;
+	public void setLastnameOfPatient(String lastnameOfPatient) {
+		this.lastnameOfPatient = lastnameOfPatient;
 	}
 
 	public String getCommentary() {

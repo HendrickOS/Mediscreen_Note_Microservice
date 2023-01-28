@@ -32,8 +32,8 @@ public class NoteServiceImpl implements NoteService {
 	}
 
 	@Override
-	public List<Note> findByPatientsName(String patientsName) {
-		List<Note> findAll = noteRepository.findByPatientsName(patientsName);
+	public List<Note> findByLastnameOfPatient(String lastnameOfPatient) {
+		List<Note> findAll = noteRepository.findByLastnameOfPatient(lastnameOfPatient);
 		return findAll;
 	}
 
@@ -49,8 +49,8 @@ public class NoteServiceImpl implements NoteService {
 	}
 
 	@Override
-	public List<String> commentariesOfEachNoteOfPatient(String patientsName) {
-		List<Note> notes = findByPatientsName(patientsName);
+	public List<String> commentariesOfEachNoteOfPatient(String lastnameOfPatient) {
+		List<Note> notes = findByLastnameOfPatient(lastnameOfPatient);
 		List<String> commentaries = new ArrayList<>();
 		for (Note note : notes) {
 			commentaries.add(note.getCommentary());

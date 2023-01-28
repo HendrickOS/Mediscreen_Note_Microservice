@@ -9,7 +9,7 @@ import com.project9.Mediscreen_Note_Microservice.domain.Note;
 
 public interface NoteRepository extends MongoRepository<Note, Integer>, CrudRepository<Note, Integer> {
 
-	public List<Note> findByPatientsName(String patientsName);
+	public List<Note> findByLastnameOfPatient(String lastnameOfPatient);
 
 	public Note save(Note note);
 
