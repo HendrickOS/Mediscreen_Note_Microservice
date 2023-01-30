@@ -1,0 +1,484 @@
+[{
+  "_id": {
+    "$oid": "63d53f6ad66a7c57d6378235"
+  },
+  "lastnameOfPatient": "Ferguson",
+  "commentary": "Le patient déclare qu'il « se sent très bien » Poids égal ou inférieur au poids recommandé",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d53ffce3ef7b4dc623fcda"
+  },
+  "lastnameOfPatient": "Ferguson",
+  "commentary": "Le patient déclare qu'il se sent fatigué pendant la journée Il se plaint également de douleurs musculaires Tests de laboratoire indiquant une microalbumine élevée",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d54011e3ef7b4dc623fcdb"
+  },
+  "lastnameOfPatient": "Ferguson",
+  "commentary": "Le patient déclare qu'il ne se sent pas si fatigué que ça Fumeur, il a arrêté dans les 12 mois précédents Tests de laboratoire indiquant que les anticorps sont élevés",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d54020e3ef7b4dc623fcdc"
+  },
+  "lastnameOfPatient": "Rees",
+  "commentary": "Le patient déclare qu'il ressent beaucoup de stress au travail Il se plaint également que son audition est anormale dernièrement",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d54029e3ef7b4dc623fcdd"
+  },
+  "lastnameOfPatient": "Rees",
+  "commentary": "Le patient déclare avoir fait une réaction aux médicaments au cours des 3 derniers mois Il remarque également que son audition continue d'être anormale",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d54039e3ef7b4dc623fcde"
+  },
+  "lastnameOfPatient": "Rees",
+  "commentary": "Tests de laboratoire indiquant une microalbumine élevée",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d54043e3ef7b4dc623fcdf"
+  },
+  "lastnameOfPatient": "Rees",
+  "commentary": "Le patient déclare que tout semble aller bien Le laboratoire rapporte que l'hémoglobine A1C dépasse le niveau recommandé Le patient déclare qu’il fume depuis longtemps",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5404ce3ef7b4dc623fce0"
+  },
+  "lastnameOfPatient": "Arnold",
+  "commentary": "Le patient déclare qu'il fume depuis peu",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d54056e3ef7b4dc623fce1"
+  },
+  "lastnameOfPatient": "Arnold",
+  "commentary": "Tests de laboratoire indiquant une microalbumine élevée",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d54066e3ef7b4dc623fce2"
+  },
+  "lastnameOfPatient": "Arnold",
+  "commentary": "Le patient déclare qu'il est fumeur et qu'il a cessé de fumer l'année dernière Il se plaint également de crises d’apnée respiratoire anormales Tests de laboratoire indiquant un taux de cholestérol LDL élevé",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5406ee3ef7b4dc623fce3"
+  },
+  "lastnameOfPatient": "Arnold",
+  "commentary": "Tests de laboratoire indiquant un taux de cholestérol LDL élevé",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d540dee3ef7b4dc623fce4"
+  },
+  "lastnameOfPatient": "Sharp",
+  "commentary": "Le patient déclare qu'il lui est devenu difficile de monter les escaliers Il se plaint également d’être essoufflé Tests de laboratoire indiquant que les anticorps sont élevés Réaction aux médicaments",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d540e7e3ef7b4dc623fce5"
+  },
+  "lastnameOfPatient": "Sharp",
+  "commentary": "Le patient déclare qu'il a mal au dos lorsqu'il reste assis pendant longtemps",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d540f0e3ef7b4dc623fce6"
+  },
+  "lastnameOfPatient": "Sharp",
+  "commentary": "Le patient déclare avoir commencé à fumer depuis peu Hémoglobine A1C supérieure au niveau recommandé",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d540fbe3ef7b4dc623fce7"
+  },
+  "lastnameOfPatient": "Ince",
+  "commentary": "Le patient déclare avoir des douleurs au cou occasionnellement Le patient remarque également que certains aliments ont un goût différent Réaction apparente aux médicaments Poids corporel supérieur au poids recommandé",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d54102e3ef7b4dc623fce8"
+  },
+  "lastnameOfPatient": "Ince",
+  "commentary": "Le patient déclare avoir eu plusieurs épisodes de vertige depuis la dernière visite. Taille incluse dans la fourchette concernée",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5410ce3ef7b4dc623fce9"
+  },
+  "lastnameOfPatient": "Ince",
+  "commentary": "Le patient déclare qu'il souffre encore de douleurs cervicales occasionnelles Tests de laboratoire indiquant une microalbumine élevée Fumeur, il a arrêté dans les 12 mois précédents",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d54115e3ef7b4dc623fcea"
+  },
+  "lastnameOfPatient": "Ince",
+  "commentary": "Le patient déclare avoir eu plusieurs épisodes de vertige depuis la dernière visite. Tests de laboratoire indiquant que les anticorps sont élevés",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5411ee3ef7b4dc623fceb"
+  },
+  "lastnameOfPatient": "Ross",
+  "commentary": "Le patient déclare qu'il se sent bien Poids corporel supérieur au poids recommandé",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d54126e3ef7b4dc623fcec"
+  },
+  "lastnameOfPatient": "Ross",
+  "commentary": "Le patient déclare qu'il se sent bien",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d54132e3ef7b4dc623fced"
+  },
+  "lastnameOfPatient": "Wilson",
+  "commentary": "Le patient déclare qu'il se réveille souvent avec une raideur articulaire Il se plaint également de difficultés pour s’endormir Poids corporel supérieur au poids recommandé Tests de laboratoire indiquant un taux de cholestérol LDL élevé",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5413de3ef7b4dc623fcee"
+  },
+  "lastnameOfPatient": "Buckland",
+  "commentary": "Les tests de laboratoire indiquent que les anticorps sont élevés Hémoglobine A1C supérieure au niveau recommandé",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5414ce3ef7b4dc623fcef"
+  },
+  "lastnameOfPatient": "Clark",
+  "commentary": "Le patient déclare avoir de la difficulté à se concentrer sur ses devoirs scolaires Hémoglobine A1C supérieure au niveau recommandé",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5415be3ef7b4dc623fcf0"
+  },
+  "lastnameOfPatient": "Clark",
+  "commentary": "Le patient déclare qu'il s’impatiente facilement en cas d’attente prolongée Il signale également que les produits du distributeur automatique ne sont pas bons Tests de laboratoire signalant des taux anormaux de cellules sanguines",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d54164e3ef7b4dc623fcf1"
+  },
+  "lastnameOfPatient": "Clark",
+  "commentary": "Le patient signale qu'il est facilement irrité par des broutilles Il déclare également que l'aspirateur des voisins fait trop de bruit Tests de laboratoire indiquant que les anticorps sont élevés",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5417be3ef7b4dc623fcf2"
+  },
+  "lastnameOfPatient": "Bailey",
+  "commentary": "Le patient déclare qu'il n'a aucun problème",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d54187e3ef7b4dc623fcf3"
+  },
+  "lastnameOfPatient": "Bailey",
+  "commentary": "Le patient déclare qu'il n'a aucun problème Taille incluse dans la fourchette concernée Hémoglobine A1C supérieure au niveau recommandé",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5418fe3ef7b4dc623fcf4"
+  },
+  "lastnameOfPatient": "Bailey",
+  "commentary": "Le patient déclare qu'il n'a aucun problème Poids corporel supérieur au poids recommandé Le patient a signalé plusieurs épisodes de vertige depuis sa dernière visite",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5419ae3ef7b4dc623fcf5"
+  },
+  "lastnameOfPatient": "Bailey",
+  "commentary": "Le patient déclare qu'il n'a aucun problème Tests de laboratoire indiquant une microalbumine élevée",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5895a3fa7be054faef250"
+  },
+  "lastnameOfPatient": "NoneTest",
+  "commentary": "Some notes",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d589723fa7be054faef251"
+  },
+  "lastnameOfPatient": "NoneTest",
+  "commentary": "NoneTest",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5897a3fa7be054faef252"
+  },
+  "lastnameOfPatient": "NoneTest",
+  "commentary": "NoneTest",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d58a9a3fa7be054faef253"
+  },
+  "lastnameOfPatient": "BorderlineTest",
+  "commentary": "Some notes hemoglobine a1c",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d58ab53fa7be054faef254"
+  },
+  "lastnameOfPatient": "BorderlineTest",
+  "commentary": "Some notes taille",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d58ac03fa7be054faef255"
+  },
+  "lastnameOfPatient": "BorderlineTest",
+  "commentary": "Some notes",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d58ca93fa7be054faef256"
+  },
+  "lastnameOfPatient": "InDangerManLessThan30yoTest",
+  "commentary": "Some notes hemoglobine a1c",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d58cb33fa7be054faef257"
+  },
+  "lastnameOfPatient": "InDangerManLessThan30yoTest",
+  "commentary": "Some notes taille",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d58ccc3fa7be054faef258"
+  },
+  "lastnameOfPatient": "InDangerManLessThan30yoTest",
+  "commentary": "Some notes Vertige",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d58ef13fa7be054faef259"
+  },
+  "lastnameOfPatient": "InDangerWomanLessThan30yoTest",
+  "commentary": "Some notes hemoglobine a1c",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d58f2a3fa7be054faef25a"
+  },
+  "lastnameOfPatient": "InDangerWomanLessThan30yoTest",
+  "commentary": "Some notes taille",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d58f573fa7be054faef25b"
+  },
+  "lastnameOfPatient": "InDangerWomanLessThan30yoTest",
+  "commentary": "Some notes Vertige",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d58f773fa7be054faef25c"
+  },
+  "lastnameOfPatient": "InDangerWomanLessThan30yoTest",
+  "commentary": "Some notes rechute",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5901a3fa7be054faef25d"
+  },
+  "lastnameOfPatient": "InDangerPersonMoreThan30yoTest",
+  "commentary": "Some notes hemoglobine a1c",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d590203fa7be054faef25e"
+  },
+  "lastnameOfPatient": "InDangerPersonMoreThan30yoTest",
+  "commentary": "Some notes taille",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d590263fa7be054faef25f"
+  },
+  "lastnameOfPatient": "InDangerPersonMoreThan30yoTest",
+  "commentary": "Some notes Vertige",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5902c3fa7be054faef260"
+  },
+  "lastnameOfPatient": "InDangerPersonMoreThan30yoTest",
+  "commentary": "Some notes rechute",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d590443fa7be054faef261"
+  },
+  "lastnameOfPatient": "InDangerPersonMoreThan30yoTest",
+  "commentary": "Some notes reaction",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5905d3fa7be054faef262"
+  },
+  "lastnameOfPatient": "InDangerPersonMoreThan30yoTest",
+  "commentary": "Some notes cholesterol",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d590e43fa7be054faef263"
+  },
+  "lastnameOfPatient": "EarlyOnSetManLess30yoTest",
+  "commentary": "Some notes hemoglobine a1c",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d590ea3fa7be054faef264"
+  },
+  "lastnameOfPatient": "EarlyOnSetManLess30yoTest",
+  "commentary": "Some notes taille",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d590ef3fa7be054faef265"
+  },
+  "lastnameOfPatient": "EarlyOnSetManLess30yoTest",
+  "commentary": "Some notes Vertige",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d590f73fa7be054faef266"
+  },
+  "lastnameOfPatient": "EarlyOnSetManLess30yoTest",
+  "commentary": "Some notes rechute",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d590fd3fa7be054faef267"
+  },
+  "lastnameOfPatient": "EarlyOnSetManLess30yoTest",
+  "commentary": "Some notes reaction",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d591083fa7be054faef268"
+  },
+  "lastnameOfPatient": "EarlyOnSetManLess30yoTest",
+  "commentary": "Some notes cholesterol",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d591653fa7be054faef269"
+  },
+  "lastnameOfPatient": "EarlyOnSetWomanLess30yoTest",
+  "commentary": "Some notes hemoglobine a1c",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5916b3fa7be054faef26a"
+  },
+  "lastnameOfPatient": "EarlyOnSetWomanLess30yoTest",
+  "commentary": "Some notes taille",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d591713fa7be054faef26b"
+  },
+  "lastnameOfPatient": "EarlyOnSetWomanLess30yoTest",
+  "commentary": "Some notes Vertige",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d591763fa7be054faef26c"
+  },
+  "lastnameOfPatient": "EarlyOnSetWomanLess30yoTest",
+  "commentary": "Some notes rechute",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5917c3fa7be054faef26d"
+  },
+  "lastnameOfPatient": "EarlyOnSetWomanLess30yoTest",
+  "commentary": "Some notes reaction",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d591843fa7be054faef26e"
+  },
+  "lastnameOfPatient": "EarlyOnSetWomanLess30yoTest",
+  "commentary": "Some notes cholesterol",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d591983fa7be054faef26f"
+  },
+  "lastnameOfPatient": "EarlyOnSetWomanLess30yoTest",
+  "commentary": "Some notes fumeur",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5920a3fa7be054faef270"
+  },
+  "lastnameOfPatient": "EarlyOnSetPersonMore30yoTest",
+  "commentary": "Some notes hemoglobine a1c",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d592113fa7be054faef271"
+  },
+  "lastnameOfPatient": "EarlyOnSetPersonMore30yoTest",
+  "commentary": "Some notes Vertige",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d592183fa7be054faef272"
+  },
+  "lastnameOfPatient": "EarlyOnSetPersonMore30yoTest",
+  "commentary": "Some notes cholesterol",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5921d3fa7be054faef273"
+  },
+  "lastnameOfPatient": "EarlyOnSetPersonMore30yoTest",
+  "commentary": "Some notes reaction",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d592233fa7be054faef274"
+  },
+  "lastnameOfPatient": "EarlyOnSetPersonMore30yoTest",
+  "commentary": "Some notes rechute",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5922d3fa7be054faef275"
+  },
+  "lastnameOfPatient": "EarlyOnSetPersonMore30yoTest",
+  "commentary": "Some notes fumeur",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5923f3fa7be054faef276"
+  },
+  "lastnameOfPatient": "EarlyOnSetPersonMore30yoTest",
+  "commentary": "Some notes anticorps",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+},{
+  "_id": {
+    "$oid": "63d5926f3fa7be054faef277"
+  },
+  "lastnameOfPatient": "EarlyOnSetPersonMore30yoTest",
+  "commentary": "Some notes anormal",
+  "_class": "com.project9.Mediscreen_Note_Microservice.domain.Note"
+}]
