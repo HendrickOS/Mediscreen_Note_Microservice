@@ -34,19 +34,16 @@ public class NoteController {
 
 	@GetMapping("/notes/update/{id}")
 	public Note showUpdateForm(@PathVariable("id") String id, Model model) {
-//	public Note showUpdateForm(@PathVariable("id") ObjectId id, Model model) {
 		return noteService.findById(id);
 	}
 
 	@PostMapping("/notes/update/{id}")
 	public Note updateNote(@PathVariable("id") String id, @Valid Note note, BindingResult result, Model model) {
-//	public Note updateNote(@PathVariable("id") ObjectId id, @Valid Note note, BindingResult result, Model model) {
 		return noteService.save(note);
 	}
 
 	@GetMapping("/notes/delete/{id}")
 	public void deleteNote(@PathVariable("id") String id) {
-//	public void deleteNote(@PathVariable("id") ObjectId id) {
 		noteService.deleteById(id);
 	}
 

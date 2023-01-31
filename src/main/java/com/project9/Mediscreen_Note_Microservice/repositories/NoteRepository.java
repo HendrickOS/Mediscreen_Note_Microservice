@@ -12,13 +12,10 @@ public interface NoteRepository extends MongoRepository<Note, Integer>, CrudRepo
 
 	public List<Note> findByLastnameOfPatient(String lastnameOfPatient);
 
-//	Optional<Note> findById(ObjectId id);
-//	Note findById(ObjectId id);
 	Optional<Note> findById(String id);
 
 	public Note save(Note note);
 
-//	public void deleteById(ObjectId id);
 	public void deleteById(String id);
 
 }
