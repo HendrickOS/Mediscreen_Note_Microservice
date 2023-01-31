@@ -4,7 +4,6 @@ import java.util.List;
 
 import javax.validation.Valid;
 
-import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -34,31 +33,21 @@ public class NoteController {
 	}
 
 	@GetMapping("/notes/update/{id}")
-	public String showUpdateForm(@PathVariable("id") Integer id, Model model) {
-		Note note = noteService.findById(id);
-		model.addAttribute("note", note);
-		return "note/update";
+	public Note showUpdateForm(@PathVariable("id") String id, Model model) {
+//	public Note showUpdateForm(@PathVariable("id") ObjectId id, Model model) {
+		return noteService.findById(id);
 	}
 
 	@PostMapping("/notes/update/{id}")
-	public String updateNote(@PathVariable("id") ObjectId id, @Valid Note note, BindingResult result, Model model) {
-		if (result.hasErrors()) {
-			return "note/update";
-		}
-		note.setId(id);
-		noteService.save(note);
-		model.addAttribute("note", noteService.findAll());
-		return "redirect:/notes/list";
+	public Note updateNote(@PathVariable("id") String id, @Valid Note note, BindingResult result, Model model) {
+//	public Note updateNote(@PathVariable("id") ObjectId id, @Valid Note note, BindingResult result, Model model) {
+		return noteService.save(note);
 	}
 
 	@GetMapping("/notes/delete/{id}")
-	public String deleteNote(@PathVariable("id") Integer id, Model model) {
-		Note note = noteService.findById(id);
-		if (note != null) {
-			noteService.delete(note);
-		}
-		model.addAttribute("note", noteService.findAll());
-		return "redirect:/notes/list";
+	public void deleteNote(@PathVariable("id") String id) {
+//	public void deleteNote(@PathVariable("id") ObjectId id) {
+		noteService.deleteById(id);
 	}
 
 }

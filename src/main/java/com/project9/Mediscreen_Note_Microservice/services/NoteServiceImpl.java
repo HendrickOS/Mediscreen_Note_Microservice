@@ -33,18 +33,24 @@ public class NoteServiceImpl implements NoteService {
 
 	@Override
 	public List<Note> findByLastnameOfPatient(String lastnameOfPatient) {
-		List<Note> findAll = noteRepository.findByLastnameOfPatient(lastnameOfPatient);
-		return findAll;
+		return noteRepository.findByLastnameOfPatient(lastnameOfPatient);
 	}
 
 	@Override
-	public Note findById(Integer id) {
+	public Note findById(String id) {
 		return noteRepository.findById(id).get();
+//		return noteRepository.findById(id);
 	}
 
 	@Override
 	public void delete(Note note) {
 		noteRepository.delete(note);
+	}
+
+	@Override
+	public void deleteById(String id) {
+//	public void deleteById(ObjectId id) {
+		noteRepository.deleteById(id);
 
 	}
 
