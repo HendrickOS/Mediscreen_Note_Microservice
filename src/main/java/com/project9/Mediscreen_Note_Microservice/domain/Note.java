@@ -11,7 +11,6 @@ public class Note {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-//	private ObjectId id;
 	private String id;
 	private String lastnameOfPatient;
 	private String commentary;
@@ -20,12 +19,6 @@ public class Note {
 		super();
 	}
 
-//	public Note(ObjectId id, String lastnameOfPatient, String commentary) {
-//		super();
-//		this.id = id;
-//		this.lastnameOfPatient = lastnameOfPatient;
-//		this.commentary = commentary;
-//	}
 	public Note(String id, String lastnameOfPatient, String commentary) {
 		super();
 		this.id = id;
@@ -33,13 +26,6 @@ public class Note {
 		this.commentary = commentary;
 	}
 
-//	public ObjectId getId() {
-//		return id;
-//	}
-//
-//	public void setId(ObjectId id) {
-//		this.id = id;
-//	}
 	public String getId() {
 		return id;
 	}

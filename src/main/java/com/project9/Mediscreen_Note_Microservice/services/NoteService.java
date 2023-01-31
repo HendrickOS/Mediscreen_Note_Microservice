@@ -15,12 +15,10 @@ public interface NoteService {
 
 	List<Note> findByLastnameOfPatient(String lastnameOfPatient);
 
-//	Note findById(ObjectId id);
 	Note findById(String id);
 
 	void delete(Note note);
 
-//	void deleteById(ObjectId id);
 	void deleteById(String id);
 
 	List<String> commentariesOfEachNoteOfPatient(String lastnameOfPatient);

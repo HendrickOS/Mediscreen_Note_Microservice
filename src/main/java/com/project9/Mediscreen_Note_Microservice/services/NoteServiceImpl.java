@@ -39,7 +39,6 @@ public class NoteServiceImpl implements NoteService {
 	@Override
 	public Note findById(String id) {
 		return noteRepository.findById(id).get();
-//		return noteRepository.findById(id);
 	}
 
 	@Override
@@ -49,7 +48,6 @@ public class NoteServiceImpl implements NoteService {
 
 	@Override
 	public void deleteById(String id) {
-//	public void deleteById(ObjectId id) {
 		noteRepository.deleteById(id);
 
 	}
